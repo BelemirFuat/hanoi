@@ -145,7 +145,7 @@
             selectedDisk = null;
 
             if (towers[2].Count == diskCount)
-                MessageBox.Show("Tebrikler! Oyunu Başarıyla Tamamladınız.", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"Tebrikler! Oyunu {moveCount} Hamlede Başarıyla Tamamladınız.", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
